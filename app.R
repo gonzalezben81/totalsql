@@ -12,16 +12,6 @@ library(RMySQL)
 # Define UI for application that draws a histogram
 
 
-# options(mysql = list(
-#   "host" = "162.243.186.67",
-#   "port" = 3306,
-#   "user" = "ben",
-#   "password" = "Charlene81"
-# ))
-# 
-# databaseName <- "rstudio"
-# table <- "potluck"
-
 ui <-  fluidPage(
   mainPanel("Enter SQL Data",
             headerPanel("SQL Connection:"),
